@@ -21,4 +21,4 @@ jobs:
         uses: actions/upload-artifact@v3  # v2에서 v3로 업데이트
         with:
           name: built-exe
-          path: ./dist/
+          path: build
